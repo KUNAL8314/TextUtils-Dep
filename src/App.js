@@ -23,6 +23,19 @@ function App() {
       document.title = "TextUtils Dark Mode";
     }
   }
+
+  // const removeBodyClasses=()=>{
+  //   document.body.classList.remove('bg-light');
+  //   document.body.classList.remove('bg-dark');
+  //   document.body.classList.remove('bg-success');
+  //   document.body.classList.remove('bg-primary');
+  //   document.body.classList.remove('bg-danger');
+  // }
+  
+  // const toggleMode = (cls) => {
+  //   removeBodyClasses();
+  //   document.body.classList.add('bg-'+cls);
+  // }
   const [alert, setAlert] = useState(null);
   const showAlert = (message, type) => {
     setAlert({
